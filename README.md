@@ -32,7 +32,7 @@ To set up the Bricker game, follow these steps:
     ```
 
 ## Usage
-After starting the game, use the arrow keys to control the paddle. Bounce the ball to break all the bricks. Avoid letting the ball fall off the screen, or you will lose a life. Collect falling hearts for extra lives and power-ups.
+After starting the game, use the arrow keys to control the paddle. Bounce the ball to break all the bricks. Avoid letting the ball fall off the screen, or you will lose a life.
 
 ## Command Line Arguments
 You can customize the number of bricks and rows by providing optional command line arguments:
@@ -42,14 +42,10 @@ You can customize the number of bricks and rows by providing optional command li
 
 Example:
 ```sh
-java -cp DanoGameLab/src:src BrickerGameManager 10 5
+java -cp DanoGameLab/src:src BrickerGameManager 8 7
 ```
 
 ## Dependencies
 Bricker relies on the following Java libraries:
 
 - **DanoGameLab:** Manages game objects, collisions, and graphics. [DanoGameLab GitHub](https://github.com/DanoGameLab/DanoGameLab)
-- **bricker:** Contains game-specific logic and objects.
-
-## Contributions
-Contributions are welcome! Report bugs or suggest improvements by opening an issue or submitting a pull request on the GitHub repository.
